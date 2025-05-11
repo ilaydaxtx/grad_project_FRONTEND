@@ -1,0 +1,89 @@
+.home-container {
+    background-image: url('../Assets/purple_bg.png');   // Gradient from pink to orange
+    background-size: cover;      // Makes the image cover the whole container
+    background-position: center; // Centers the image nicely
+    background-repeat: no-repeat;
+    height: 100vh;  // Make the background cover the entire height of the viewport
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  // Center the content inside the container (optional)
+    color: white;  // Text color for visibility over the gradient
+}
+
+.navbar-container {
+    background-color: transparent;  // Background color for the navbar
+    padding: 10px 20px;  // Padding for the navbar
+    display: flex;  // Flexbox layout
+    justify-content: center;  // Align items to the left
+    align-items: center;  // Align items vertically centered
+    position: fixed;  // Fix the navbar to the top of the page
+    top: 0;
+    margin-top: 40px;
+    width: 100%;  // Full width of the screen
+    z-index: 1000;  // Ensure the navbar stays on top of other content
+}
+
+.navbar-list {
+    display: flex;  // Flexbox for list items to be aligned horizontally
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar-list-item {
+    padding: 10px 20px;  // Padding for each item
+    color: white;  // White text color
+    text-transform: uppercase;  // Capitalize the text
+    cursor: pointer;  // Pointer cursor on hover
+    transition: ease 0.3s;  // Smooth background color transition on hover
+    border-radius: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-list-item:hover {
+    color: rgb(189, 159, 159); // Darker background on hover
+    transform: scale(1.05);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.title-container{
+    padding: 0%
+}
+
+.above-title{
+    padding: 0%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.783);
+}
+.title{
+    padding: 0%;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+
+}
+
+.sub-title{
+    padding: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    margin-bottom: 5%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.start-button{
+    padding: 10px 20px;
+    background-color: #993ff980;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: ease 0.3s;
+
+}
+.start-button:hover{
+    transform: scale(1.05);
+    color: rgb(189, 159, 159);
+}
